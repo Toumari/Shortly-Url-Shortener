@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/css/modern-normalise.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/utils.css" />
+
+    <title>Shortly URL shortening API Challenge</title>
+  </head>
+  <body>
+    <nav class="container">
+      <div class="mobile__nav">
+        <p class="logo">Shortly</p>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="mobile__menu hidden">
+          <ul>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+          </ul>
+          <div class="line"></div>
+          <ul>
+            <li>Login</li>
+            <li><a class="signup__btn" href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav__items">
+        <ul>
+          <p class="logo">Shortly</p>
+          <li class="nav__item"><a href="#">Features</a></li>
+          <li class="nav__item"><a href="#">Pricing</a></li>
+          <li class="nav__item"><a href="#">Resources</a></li>
+        </ul>
+        <div class="account__options">
+          <a class="login__btn" href="#">Login</a>
+          <a class="signup__btn" href="#">Sign Up</a>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <img
+        class="hero__img"
+        src="/images/illustration-working.svg"
+        alt="hero-img"
+      />
+      <div class="hero-wrap">
+        <div class="hero container">
+          <div class="hero__text">
+            <h1 class="hero__title">More than just shorter links</h1>
+            <p class="hero__description">
+              Build your brand's recognition and get detailed insights on how
+              your links are performing.
+            </p>
+            <button class="hero__btn btn">Get Started</button>
+          </div>
+          <div class="shorten__box container">
+            <div class="link__input__wrapper">
+              <input
+                type="text"
+                name="link__input"
+                class="link__input"
+                id="link__input"
+                placeholder="https://url.com"
+              />
+            </div>
+            <button class="shorten__btn shorten__submit btn">
+              Shorten it!
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="links container">
+          <div class="link-grid"></div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="statistics container">
+          <h2 class="stats__title subtitle">Advanced Statistics</h2>
+          <p class="stats__description">
+            Track how your links are performing across the web with our advanced
+            statistics dashboard.
+          </p>
+          <div class="card__grid">
+            <div class="card">
+              <div class="buff">
+                <img
+                  class="card__img"
+                  src="./images/icon-brand-recognition.svg"
+                  alt=""
+                />
+              </div>
+              <h3>Brand Recognition</h3>
+              <p>
+                Boost your brand recognition with each click. Generic links
+                don't mean a thing. Branded links help instil confidence in your
+                content
+              </p>
+            </div>
+            <div class="card">
+              <div class="buff">
+                <img
+                  class="card__img"
+                  src="./images/icon-detailed-records.svg"
+                  alt=""
+                />
+              </div>
+              <h3>Detailed Records</h3>
+              <p>
+                Gain insights into who is clicking your links. Knowing when and
+                where people engage with your content helps inform better
+                decisions.
+              </p>
+            </div>
+            <div class="card">
+              <div class="buff">
+                <img
+                  class="card__img"
+                  src="./images/icon-fully-customizable.svg"
+                  alt=""
+                />
+              </div>
+              <h3>Fully Customizable</h3>
+              <p>
+                Improve brand awareness and content discoverability through
+                customizable links, supercharging audience engagement.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cta">
+        <h2 class="cta__title">Boost your links today</h2>
+        <button class="cta__btn btn">Get Started</button>
+      </div>
+      <footer>
+        <h3 class="footer__title">Shortly</h3>
+        <ul>
+          <li class="list__title">Features</li>
+          <li><a href="#">Link Shortening</a></li>
+          <li><a href="#">Branded Links</a></li>
+          <li><a href="#">Analytics</a></li>
+        </ul>
+        <ul>
+          <li class="list__title">Resources</li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+        <ul>
+          <li class="list__title">Company</li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="social__icons">
+          <img src="/images/icon-facebook.svg" alt="" /><img
+            src="/images/icon-twitter.svg"
+            alt=""
+          /><img src="/images/icon-pinterest.svg" alt="" /><img
+            src="/images/icon-instagram.svg"
+            alt=""
+          />
+        </div>
+      </footer>
+    </main>
+    <script src="index.js" defer></script>
+  </body>
+</html>
