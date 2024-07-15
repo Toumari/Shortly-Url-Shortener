@@ -127,6 +127,11 @@ main {
   color: var(--white);
 }
 
+.login__btn {
+  color: var(--medium-grey);
+  font-weight: 700;
+}
+
 /* Hero */
 
 .hero-wrap {
@@ -431,7 +436,8 @@ footer ul li a {
 
   .nav__items ul li a {
     text-decoration: none;
-    color: var(--dark-grey);
+    color: var(--medium-grey);
+    font-weight: 700;
   }
 
   .account__options {
